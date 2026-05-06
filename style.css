@@ -1,0 +1,106 @@
+/* Configurações de Cores e Estilo */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f8;
+    color: #4a4a4a;
+}
+
+header {
+    background-color: #ffdae9;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 4px solid #d4af37;
+}
+
+h1 {
+    color: #b32d5b;
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.slogan {
+    font-style: italic;
+    color: #8a6d3b;
+}
+
+nav {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #b32d5b;
+    font-weight: bold;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #b32d5b;
+    border-left: 5px solid #d4af37;
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #b32d5b;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.center {
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #b8972f;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2c2c2c;
+    color: #ffd1e3;
+}
